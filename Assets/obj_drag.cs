@@ -1,13 +1,19 @@
 using UnityEngine;
-
+using UnityEngine.UI;
+using UnityEngine.Events;
 public class obj_drag : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public Vector2 savePosisi;
-    public bool isDiatasObj;
+    [HideInInspector]public Vector2 savePosisi;
+    [HideInInspector] public bool isDiatasObj;
 
     Transform saveObj;
     public int id;
+    public Text teks;
+    [Space]
+
+    public UnityEvent onDragBenar;
+
     void Start()
     {
         savePosisi = transform.position;
@@ -41,6 +47,7 @@ public class obj_drag : MonoBehaviour
                 transform.localScale = new Vector2(0.6f, 0.6f);
 
                 saveObj.GetComponent<SpriteRenderer>().enabled = false;
+                onDragBenar.Invoke();
             }
             else
             {
