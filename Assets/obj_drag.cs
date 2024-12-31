@@ -48,14 +48,23 @@ public class obj_drag : MonoBehaviour
 
                 saveObj.GetComponent<SpriteRenderer>().enabled = false;
                 onDragBenar.Invoke();
+
+                //jika sukses
+                GameSystem.instance.DataSaatIni++;
+                Data.DataScore += 200;
             }
             else
             {
                 transform.position = savePosisi;
+
+                //jika salah
+                Data.DataDarah--;
             }
         }
         else { 
             transform.position = savePosisi;    
+
+            //jika tempat tidak ada
         }
     }
     private void OnTriggerStay2D(Collider2D trig)

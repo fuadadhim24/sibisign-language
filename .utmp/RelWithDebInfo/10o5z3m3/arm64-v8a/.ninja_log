@@ -1,0 +1,12 @@
+# ninja log v5
+47	462	7573680150421602	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	21493684c12f7289
+464	1282	7573680156886049	D:/01. kuliah/01. semester 5/00. projek akhir/03. unity/sibisign-language/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/10o5z3m3/obj/arm64-v8a/libswappywrapper.so	7d3136b9e759d36
+18	2319	7573680168704971	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	fc6bb13f0fe5b4c8
+30	2486	7573680170555457	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	644bf5a80481c231
+13	2546	7573680171247485	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	332730952b885708
+41	2584	7573680170617340	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5be13b4166b889d5
+35	2585	7573680170484981	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	a14f581a5c30a1e6
+1	2833	7573680173994922	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	a330864ed19a841c
+24	2942	7573680175103464	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	c6d8c5c72ef8253
+8	3311	7573680178714977	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	455a2be665c83efa
+3311	3497	7573680180722972	D:/01. kuliah/01. semester 5/00. projek akhir/03. unity/sibisign-language/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/10o5z3m3/obj/arm64-v8a/libgame.so	bf1cc400dffdc590

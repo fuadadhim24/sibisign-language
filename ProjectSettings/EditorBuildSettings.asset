@@ -26,7 +26,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/sibisign_page1.unity
     guid: 5526638d90b2980459e3527328ef10cf
+  - enabled: 1
+    path: Assets/Scenes/sibisign_page7.unity
+    guid: 38674539e4cf7964f832efae6edb3530
+  - enabled: 1
+    path: Assets/Scenes/sibisign_page7 1.unity
+    guid: d2941e568746f694a88ce700d277429a
+  - enabled: 1
+    path: Assets/Scenes/sibisign_page7 2.unity
+    guid: 1142cf853dd3ff144a017f77aaf694ad
+  - enabled: 1
+    path: Assets/Scenes/sibisign_page7 3.unity
+    guid: 48eaf0ce0f2c1a04495caf3a9be5cd83
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 7e05426fb593aee4e8c92d5389b6775b, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 6b213ce0dafdf9445bedf85018a71106, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
